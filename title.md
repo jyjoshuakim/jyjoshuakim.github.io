@@ -1,2 +1,3 @@
-#Joo Young Kim
-@ Hanyang Univ.
+# Joo Young Kim
+Hanyang Univ.
+Personal Homepage
