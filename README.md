@@ -1,2 +1,2 @@
-# jooyoungkim.github.io
+# jyjoshuakim.github.io
 Personal Homepage
