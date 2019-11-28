@@ -1,4 +1,4 @@
 # Joo Young Kim
-Hanyang Univ. ￦n
+Hanyang Univ.
 
 Personal Homepage
