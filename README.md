@@ -1,2 +1,2 @@
-# jyjoshuakim.github.io
+# Joo Young Kim
 Personal Homepage
