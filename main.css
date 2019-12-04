@@ -12,6 +12,7 @@
     flex-shrink: 0;
     margin-top: auto;
     text-align: right;
+    vertical-align: middle;
     background-color: #3F3D42;
     color: #F7931E;
 }
