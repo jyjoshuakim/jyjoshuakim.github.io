@@ -1,6 +1,6 @@
 #page-container {
     position: relative;
-    min-height: 95vh;
+    min-height: 90vh;
 }
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
@@ -12,8 +12,8 @@
     width: 100%;
     height: 2.5rem;            /* Footer height */
     text-align:right;
-    background: #1C2833;
-    color: orange;
+    background: #3F3D42;
+    color: #F7931E;
 }
 
 #header {
@@ -42,18 +42,18 @@
 
 /* Change the color of links on hover */
 .topMenu a:hover {
-    background-color: #1D2475;
+    background-color: #0A448D;
     color: white;
 }
 
 /* Add a color to the active/current link */
 .topMenu a.active {
-    background-color: #1D2475;
+    background-color: #0A448D;
     color: #F7931E;
 }
 
 /* Centered section inside the top navigation */
-.topMenu_centered a {
+.topMenu_center a {
     float: none;
     position: absolute;
     top: 50%;
