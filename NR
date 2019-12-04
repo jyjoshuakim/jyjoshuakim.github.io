@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joo Young Kim</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .header{
+        height: 5px;
+        background: #3498DB;
+      }
+      footer{
+        padding: 20px 20px;
+        text-align:right;
+        background: #1C2833;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div style="font-size:25pt; text-align:center;" "="">
+      <br><b>Sorry! This page is not ready!</b><br><br></div>
+  <footer>
+  <p>Joo Young Kim © 2019 All rights reserved.</p>
+  </footer>
+  </body>
+</html>
