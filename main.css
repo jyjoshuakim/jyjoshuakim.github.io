@@ -42,14 +42,14 @@
 
 /* Change the color of links on hover */
 .topMenu a:hover {
-    background-color: #0A448D;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topMenu a.active {
-    background-color: #0A448D;
-    color: #F7931E;
+    background-color: white;
+    color: black;
 }
 
 /* Centered section inside the top navigation */
