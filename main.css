@@ -75,11 +75,8 @@ html {
 }
 
 /* Mobile Navigation Init */
-.mobile_Menu {
+.mobile_Menu, #mobile_Menu_toggle, .hamburger{
   display: none;
-}
-#mobile_Menu_toggle, .hamburger {
-    display: none;
 }
 
 /* Responsive Navigation for Mobile*/
@@ -106,13 +103,7 @@ html {
         flex-direction: column;
     }  
     
-    .topMenu a {
-        display: none;
-    }
-    .topMenu_right {
-        display: none;
-    }
-    .topMenu_center {
+    .topMenu a, .topMenu_right, .topMenu_center {
         display: none;
     }
     
@@ -120,17 +111,14 @@ html {
         display: flex;
     }
     
-    #mobile_Menu_toggle:checked ~ .topMenu a, .topMenu_right  {
-        display: flex;
-        flex-direction: column;
-    }
     #mobile_Menu_toggle:checked ~ .topMenu_center  {
         display: flex;
         flex-direction: column;
+    }
+    #mobile_Menu_toggle:checked ~ .topMenu a, .topMenu_right  {
+        display: flex;
+        flex-direction: column;
         position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
     }
     /*
     .topMenu a, .topMenu_right {
