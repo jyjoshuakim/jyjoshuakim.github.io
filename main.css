@@ -91,6 +91,9 @@ html {
     .mobileMenu {
         float: right;
         overflow: hidden;
+        position: relative;
+        background-color: #3F3D42;
+        overflow: hidden;
     }
     
     .mobileMenu .mobileMenu_Button {
