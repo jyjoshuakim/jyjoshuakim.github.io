@@ -17,9 +17,6 @@
             <div id="content-wrap">
                 <!-- all other page content -->                
                 <!-- Top Menu -->
-                <div class="mobile_Label" style="color: white">
-                    &nbsp;Home
-                </div>
                 <div class="topMenu">                        
                     <!-- Centered -->
                     <div class="topMenu_center">
@@ -35,9 +32,22 @@
                         <a href="mailto:jykim1026@hanyang.ac.kr">Contact</a>
                         <a href="Blog">Blog</a>     
                     </div>     
-                    <a href="javascript:void(0);" class="mobile_Menu_toggle" onclick="myFunction()">
-                        &#9776;
-                    </a>
+                                        
+                    <div class="mobileLabel" style="color: white">
+                        &nbsp;Home
+                    </div>
+                    <div class="mobileMenu">
+                        <button class="mobileMenu_Button">
+                            &#9776;
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="/">Home</a>
+                            <a href="About">About</a>
+                            <a href="Research">Research</a>       
+                            <a href="Publications">Publications</a>     
+                            <a href="CV">CV</a>     
+                            <a href="Blog">Blog</a>     
+                        </div>
                     
                 </div>
                 <div style="font-size:25pt; text-align:center;">
@@ -55,6 +65,18 @@
             </div>
             <footer class="footer"><p>Joo Young Kim © 2019 All rights reserved.</p></footer>
         </div>
+        <script>
+            /*
+            function getMenu() {
+                var x = document.getElementById("myTopMenu");
+                if (x.className === "mobile_Menu_toggle") {                   
+                } 
+                else {
+                    x.className += " responsive";
+                }
+            }
+        */
+        </script>
     </body>
     
 </html>
