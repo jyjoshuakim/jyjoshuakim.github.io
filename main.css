@@ -101,7 +101,6 @@ html {
         align-items: flex-end;
         flex-direction: column;
     }  
-    
     .topMenu a, .topMenu_right, .topMenu_center {
         display: none;
     }
