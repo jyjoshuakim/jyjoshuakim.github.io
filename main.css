@@ -119,7 +119,6 @@ html {
     #mobile_Menu_toggle:checked ~ .topMenu a, .topMenu_right, .topMenu_center  {
         display: flex;
         flex-direction: column;
-        position: relative;
     }
     /*
     .topMenu a, .topMenu_right {
