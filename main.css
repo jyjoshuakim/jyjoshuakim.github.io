@@ -75,7 +75,7 @@ html {
 
 /* Mobile Navigation Init */
 
-.mobileLabel, .mobileMenu a, .mobileMenu_Button a{
+.mobileLabel, .mobileMenu a, .mobileMenu_Button, .mobileMenu_Button a{
     display: none;
 }
 
@@ -86,7 +86,7 @@ html {
     
     .mobileLabel {
         float: left;
-        display: inline;
+        overflow: hidden;
     }
     
     .mobileMenu {
@@ -97,11 +97,12 @@ html {
     
     /* Navigation Style*/
     .mobileMenu a {
-        color: #f2f2f2;
+        float: right;
+        font-size: 16px;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
     }
     
     .mobileMenu .mobileMenu_Button {
@@ -120,6 +121,7 @@ html {
     }
     
     .mobileMenu:hover .mobileMenu_Button {
+        display: block;
         background-color: white;
         color: black;
     }
