@@ -34,7 +34,6 @@ html {
 /* Navigation Background */
 .topMenu {
     position: relative;
-    height: 2.5rem;
     background-color: #3F3D42;
     overflow: hidden;
 }
@@ -112,6 +111,7 @@ html {
     
     .hamburger {
         display: flex;
+        padding: 14px 16px;
         position: relative;
         transform: none;
     }
