@@ -74,48 +74,22 @@ html {
 }
 
 /* Mobile Navigation Init */
-.mobile_Menu, #mobile_Menu_toggle, .hamburger{
+.mobile_Label {
   display: none;
+}
+.topMenu .mobile_Menu_toggle {
+    display: none;
 }
 
 /* Responsive Navigation for Mobile*/
 @media screen and (max-width: 830px) {  
     
-    .mobile_Menu {
-        display: flex;
-        align-items: center;
-        padding: .5rem;
-        height: 2.5rem;
-        background: #3F3D42;
+    .topMenu a:not(:first-child) {display: none;}
+    .topMenu a.icon {
+        float: right;
+        display: block;
     }
-    
-    .topMenu {
-        padding: .5rem;
-        background: #3F3D42;
-        position: fixed;
-        flex: 1;
-        top: 0;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        flex-direction: column;
-    }  
-    .topMenu a, .topMenu_right, .topMenu_center {
-        display: none;
-    }
-    
-    .hamburger {
-        display: flex;
-        padding: .5rem;
-        position: relative;
-        transform: none;
-    }
-    
-    #mobile_Menu_toggle:checked ~ .topMenu a, .topMenu_right, .topMenu_center  {
-        display: flex;
-        flex-direction: column;
-    }
+
     /*
     .topMenu a, .topMenu_right {
         float: none;
