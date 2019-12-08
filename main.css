@@ -75,7 +75,7 @@ html {
 
 /* Mobile Navigation Init */
 
-.mobileLabel, .mobileMenu a, .mobileMenu_Button{
+.mobileLabel, .mobileMenu a, .mobileMenu_Button a{
     display: none;
 }
 
@@ -86,6 +86,7 @@ html {
     
     .mobileLabel {
         float: left;
+        display: inline;
     }
     
     .mobileMenu {
@@ -114,11 +115,11 @@ html {
         font-family: inherit; 
         margin: 0; 
     }
-    .mobileMenu .mobileMenu_Button a{
+    .mobileMenu_Button a{
         float: right;
     }
     
-    .mobileMenu:hover .dropbtn {
+    .mobileMenu:hover .mobileMenu_Button {
         background-color: white;
         color: black;
     }
