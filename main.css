@@ -34,6 +34,7 @@ html {
 /* Navigation Background */
 .topMenu {
     position: relative;
+    height: 2.5rem;
     background-color: #3F3D42;
     overflow: hidden;
 }
@@ -109,6 +110,10 @@ html {
     
     .hamburger {
         display: flex;
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: none;
     }
     
     #mobile_Menu_toggle:checked ~ .topMenu_center  {
