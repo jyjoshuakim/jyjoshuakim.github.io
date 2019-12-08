@@ -75,7 +75,7 @@ html {
 
 /* Mobile Navigation Init */
 
-.mobileLabel , .mobileMenu, .mobileMenu .mobileMenu_Button, .mobileMenu_Links{
+.mobileLabel, .mobileMenu{
     display: none;
 }
 
