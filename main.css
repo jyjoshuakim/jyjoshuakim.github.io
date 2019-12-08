@@ -77,7 +77,7 @@ html {
 .mobileLabel {
     display: none;
 }
-.mobileMenu {
+.mobileMenu .mobileMenu_Button{
     display: none;
 }
 
@@ -107,12 +107,12 @@ html {
         margin: 0; /* Important for vertical align on mobile phones */
     }
     
-    .navbar a:hover, .dropdown:hover .dropbtn {
+    .mobileMenu:hover .dropbtn {
         background-color: white;
         color: black;
     }
     
-    .dropdown-content {
+    .mobileMenu_Links {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
@@ -121,12 +121,12 @@ html {
         z-index: 1;
     }
     
-    .dropdown-content a:hover {
+    .mobileMenu_Links a:hover {
         background-color: #3F3D42;
         color: #f2f2f2;
     }
     
-    .dropdown:hover .dropdown-content {
+    .mobileMenu:hover .mobileMenu_Links {
         display: block;
     }
     
