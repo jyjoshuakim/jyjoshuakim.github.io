@@ -16,7 +16,7 @@ html {
 .footer {
     height: 2.5rem;            /* Footer height */
     /*flex-shrink: 0;*/
-    bottom: 0;
+    /*bottom: 0;*/
     margin-top: -2.5rem;
     text-align: right;
     vertical-align: middle;
