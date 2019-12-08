@@ -84,8 +84,13 @@ html {
 /* Responsive Navigation for Mobile*/
 @media screen and (max-width: 830px) {  
     
-    .topMenu a:not(:first-child) {display: none;}
-    .topMenu a.icon {
+    .topMenu a, .topMenu_right, .topMenu_center a {display: none;}
+    .mobile_Label {
+        float: left;
+    }
+    .topMenu a.mobile_Menu_toggle {
+        color: #f2f2f2;
+        background-color: #3F3D42;
         float: right;
         display: block;
     }
