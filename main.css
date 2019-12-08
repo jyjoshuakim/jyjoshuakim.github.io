@@ -1,6 +1,8 @@
 #page-container {
     position: relative;
     min-height: 98vh;
+    margin-right:auto;
+    margin-left:auto;
 }
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
