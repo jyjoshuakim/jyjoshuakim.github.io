@@ -72,8 +72,6 @@ html {
 /* Right-aligned */
 .topMenu_right {
     float: right;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 /* Mobile Navigation Init */
