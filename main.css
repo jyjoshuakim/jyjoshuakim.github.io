@@ -115,11 +115,12 @@ html {
         background-color: inherit;
         margin: 0; 
     }
+    
     .mobileMenu_Button a{
         float: right;
     }
     
-    .mobileMenu:hover .mobileMenu_Button {
+    .mobileMenu_Button: hover {
         display: block;
         background-color: white;
         color: black;
