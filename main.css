@@ -90,6 +90,7 @@ html {
         overflow: hidden;
     }
     .mobileLabel a{
+        display: block;
         float: left;
         font-size: 17px;
         color: #f2f2f2;
@@ -106,7 +107,6 @@ html {
 
     /* Navigation Style*/
     .mobileMenu a {
-        float: right;
         font-size: 17px;
         color: #f2f2f2;
         text-align: center;
@@ -116,6 +116,7 @@ html {
     
     .mobileMenu_Button {
         position: relative;
+        float: right;
         font-size: 17px;
         border: none;
         outline: none;
