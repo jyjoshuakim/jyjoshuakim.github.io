@@ -85,8 +85,17 @@ html {
     .topMenu a, .topMenu_right, .topMenu_center a {display: none;}
     
     .mobileLabel {
-        float: left;
+        position: relative;
+        background-color: #3F3D42;
         overflow: hidden;
+    }
+    .mobileLabel a{
+        float: left;
+        font-size: 17px;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
     
     .mobileMenu {
@@ -94,12 +103,12 @@ html {
         background-color: #3F3D42;
         overflow: hidden;
     }
-    
+
     /* Navigation Style*/
     .mobileMenu a {
         float: right;
-        font-size: 16px;
-        color: white;
+        font-size: 17px;
+        color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -117,11 +126,11 @@ html {
     }
     
     .mobileMenu_Button a{
+        display: block;
         float: right;
     }
     
     .mobileMenu_Button: hover {
-        display: block;
         background-color: white;
         color: black;
     }
@@ -135,12 +144,12 @@ html {
         z-index: 1;
     }
     
-    .mobileMenu_Links a:hover {
+    .mobileMenu_Links: hover {
         background-color: #3F3D42;
         color: #f2f2f2;
     }
     
-    .mobileMenu:hover .mobileMenu_Links {
+    .mobileMenu_Button:hover .mobileMenu_Links a{
         display: block;
     }
     
