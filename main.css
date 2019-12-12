@@ -1,5 +1,5 @@
 html {
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 
 #page-container {
@@ -21,10 +21,11 @@ html {
     text-align: center;
     background-color: #f2f2f2;
     color: #3F3D42;
-    height: 5rem;            /* Footer height */
+    height: 4rem;            /* Footer height */
     width: 100%;
     max-width: 1366px;
     bottom: 0;
+    left: 0;
     font-size: 13px;
 }
 
@@ -83,7 +84,7 @@ html {
 /* Right-aligned */
 .topMenu_right a{
     float: right;
-    text-align: right;
+    text-align: center;
     left: 1%;
 }
 
