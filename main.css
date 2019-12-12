@@ -1,5 +1,5 @@
 html {
-    /*overflow-y: scroll;*/
+    overflow-y: scroll;
 }
 
 #page-container {
@@ -23,7 +23,6 @@ html {
     color: #3F3D42;
     height: 4rem;            /* Footer height */
     width: 100%;
-    max-width: 1366px;
     bottom: 0;
     left: 0;
     font-size: 13px;
@@ -38,8 +37,6 @@ html {
 
 /* Navigation Background */
 .topMenu {
-    margin-right:auto;
-    margin-left:auto;
     background-color: #3F3D42;
     overflow: hidden;
     position: fixed; 
@@ -59,18 +56,6 @@ html {
     font-size: 17px;
 }
 
-/* Button Hover */
-.topMenu a:hover {
-    background-color: white;
-    color: black;
-}
-
-/* Button Active */
-.topMenu a.active {
-    background-color: white;
-    color: black;
-}
-
 /* Centered */
 .topMenu_center a {
     float: none;    
@@ -85,7 +70,18 @@ html {
 .topMenu_right a{
     float: right;
     text-align: center;
-    left: 1%;
+}
+
+/* Button Hover */
+.topMenu a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Button Active */
+.topMenu a.active {
+    background-color: white;
+    color: black;
 }
 
 /* Mobile Navigation Init */
@@ -123,13 +119,11 @@ html {
     }
     
     .mobileMenu_Button {
-        background-color: inherit;
         text-align: right;
         border: none;
         outline: none;
-        color: white;
         padding: 14px 16px;
-        background-color: #3F3D42;
+        background-color: white;
         position: fixed; 
         z-index: 1; 
         top: 0; 
@@ -138,7 +132,6 @@ html {
     }
     .mobileMenu_Button a {
         float: right;
-        color: white;
         text-align: right;
     }
     .mobileMenu_Links {
