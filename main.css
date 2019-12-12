@@ -127,6 +127,7 @@ html {
         padding: 12px 16px;
         text-decoration: none;
         text-align: center;
+        min-width: 120px;
     }
     .mobileMenu_Button:hover {
         background-color: white;
