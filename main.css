@@ -90,7 +90,7 @@ html {
         border: none;
     }
     
-    .mobileLabel {
+    .mobileLabel{
         background-color: inherit;
         display: block;
         position: relative;
@@ -123,10 +123,12 @@ html {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
     .mobileMenu_Links a {
+        float: right;
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        display: block;
+        text-align: center;
+        min-width: 30%;
     }
     .mobileMenu_Button:hover {
         background-color: white;
@@ -139,6 +141,6 @@ html {
         background-color: #3F3D42; 
         color: #f2f2f2;
     }
-  
-  
+    
+    
 }
