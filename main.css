@@ -4,23 +4,25 @@ html {
 
 #page-container {
     position: relative;
-    min-height: 98vh;
+    min-height: 98%;
     max-width: 1366px;
     margin-right:auto;
     margin-left:auto;
+  overflow: hidden;
+ display: block;
 }
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
 }
 
-.footer {
-    height: 2.5rem;            /* Footer height */
-    /*flex-shrink: 0;*/
-    /*bottom: 0;*/
-    margin-top: -2.5rem;
+#footer {
+    position: absolute;
+    bottom: 0;
     text-align: right;
     background-color: #3F3D42;
     color: #F7931E;
+    height: 2.5rem;            /* Footer height */
+    width: 100%;
 }
 
 #header {
@@ -35,6 +37,10 @@ html {
     position: relative;
     background-color: #3F3D42;
     overflow: hidden;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    width: 100%
 }
 
 /* Navigation Style*/
@@ -87,7 +93,7 @@ html {
         display: block;
         background-color: #3F3D42;
         overflow: hidden;
-        border: none;
+        border: none;        
     }
     
     .mobileLabel{
@@ -100,6 +106,8 @@ html {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        position: fixed; 
+        z-index: 1;
     }
     
     .mobileMenu_Button {
@@ -110,6 +118,10 @@ html {
         color: white;
         padding: 14px 16px;
         background-color: inherit;
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        right: 0;
     }
     .mobileMenu_Button a {
         float: right;
