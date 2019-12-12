@@ -116,7 +116,6 @@ html {
         display: block;
     }
     .mobileMenu_Links {
-        float: right;
         display: none;
         background-color: #f1f1f1;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -137,13 +136,38 @@ html {
         background-color: white;
         color: black;
     }
+    .mobileMenu_Button:focus .mobileMenu_Links a{
+        float: right;
+    }
     .mobileMenu_Button:focus .mobileMenu_Links{
         display: block;
+        float: right;
+    }
+    .mobileMenu_Links a:focus {
+        background-color: #3F3D42; 
+        color: #f2f2f2;
+    }
+    .mobileMenu_Button:hover {
+        background-color: white;
+    
+        color: black;
+    }
+    .mobileMenu_Button:hover .mobileMenu_Links a{
+        float: right;
+    }
+    .mobileMenu_Button:hover .mobileMenu_Links{
+        display: block;
+        float: right;
     }
     .mobileMenu_Links a:hover {
         background-color: #3F3D42; 
         color: #f2f2f2;
     }
-  
+  /*
+    .mobileMenu_Links a:hover {
+        background-color: #3F3D42; 
+        color: #f2f2f2;
+    }
+  */
   
 }
