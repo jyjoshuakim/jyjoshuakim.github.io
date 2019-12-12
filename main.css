@@ -139,7 +139,7 @@ html {
     .mobileMenu_Button:focus .mobileMenu_Links a{
         float: right;
     }
-    .mobileMenu_Button:focus .mobileMenu_Links{
+    .mobileMenu_Button:focus, hover .mobileMenu_Links{
         display: block;
         float: right;
     }
@@ -152,22 +152,14 @@ html {
     
         color: black;
     }
-    .mobileMenu_Button:hover .mobileMenu_Links a{
-        float: right;
-    }
     .mobileMenu_Button:hover .mobileMenu_Links{
         display: block;
         float: right;
     }
+
     .mobileMenu_Links a:hover {
         background-color: #3F3D42; 
         color: #f2f2f2;
     }
-  /*
-    .mobileMenu_Links a:hover {
-        background-color: #3F3D42; 
-        color: #f2f2f2;
-    }
-  */
   
 }
