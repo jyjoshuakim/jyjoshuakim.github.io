@@ -23,6 +23,7 @@ html {
     color: #3F3D42;
     height: 5rem;            /* Footer height */
     width: 100%;
+    max-width: 1366px;
     bottom: 0;
     font-size: 13px;
 }
