@@ -1,5 +1,5 @@
 html {
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 
 #page-container {
@@ -21,7 +21,7 @@ html {
     text-align: center;
     background-color: #f2f2f2;
     color: #3F3D42;
-    height: 3rem;            /* Footer height */
+    height: 4rem;            /* Footer height */
     width: 100%;
     bottom: 0;
     left: 0;
@@ -49,6 +49,7 @@ html {
 /* Navigation Style*/
 .topMenu a {
     float: left;
+    left: 0;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
