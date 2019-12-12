@@ -75,39 +75,27 @@ html {
 
 /* Mobile Navigation Init */
 
-.mobileLabel a, .mobileMenu a, .mobileMenu_Button a{
+.mobileMenu{
     display: none;
 }
 
 /* Responsive Navigation for Mobile*/
-@media screen and (max-width: 830px) {  
-    
-    .topMenu a, .topMenu_right, .topMenu_center a {display: none;}
+@media screen and (max-width: 830px) {
+    .topMenu{display: none;}
+    .mobileMenu{
+        position: relative;
+        display: block;
+        background-color: #3F3D42;
+        overflow: hidden;
+        border: none;
+    }
     
     .mobileLabel {
-        position: relative;
-        background-color: #3F3D42;
-        overflow: hidden;
-    }
-    .mobileLabel a{
+        background-color: inherit;
         display: block;
-        float: left;
-        font-size: 17px;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    .mobileMenu {
         position: relative;
-        background-color: #3F3D42;
         overflow: hidden;
-    }
-
-    /* Navigation Style*/
-    .mobileMenu a {
-        font-size: 17px;
+        float: left;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
@@ -115,59 +103,42 @@ html {
     }
     
     .mobileMenu_Button {
-        position: relative;
         float: right;
-        font-size: 17px;
+        display: block;
         border: none;
         outline: none;
-        color: white;
-        /*background-color: #3F3D42;*/
+        color: #f2f2f2;
         padding: 14px 16px;
-        background-color: inherit;
-        margin: 0; 
+        background-color: #3F3D42;
     }
-    
-    .mobileMenu_Button a{
+    .mobileMenu_Button a {
         float: right;
         display: block;
     }
-    
-    .mobileMenu_Button: hover {
+    .mobileMenu_Links {
+        float: right;
+        display: none;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .mobileMenu_Links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .mobileMenu_Button:hover {
         background-color: white;
         color: black;
     }
-    
-    .mobileMenu_Links {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+    .mobileMenu_Button:hover .mobileMenu_Links{
+        display: block;
     }
-    
-    .mobileMenu_Links: hover {
-        background-color: #3F3D42;
+    .mobileMenu_Links a:hover {
+        background-color: #3F3D42; 
         color: #f2f2f2;
     }
-    
-    .mobileMenu_Button:hover .mobileMenu_Links a{
-        display: block;
-    }
-    
-    /*
-    .topMenu a, .topMenu_right {
-        float: none;
-        display: block;
-    }
-    
-    .topMenu_center a {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-    }
-    */
+  
+  
 }
-
-
