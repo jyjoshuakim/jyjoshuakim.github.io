@@ -13,20 +13,18 @@ html {
 }
 #content-wrap {
     padding-top: 3rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 7rem;
 }
 
 #footer {
-    position: relative;
+    position: fixed; 
     text-align: right;
     background-color: #3F3D42;
     color: #F7931E;
-    height: 2.5rem;            /* Footer height */
+    height: 5rem;            /* Footer height */
     width: 100%;
-    position: fixed; 
     bottom: 0;
-    z-index: 1; 
-
+    font-size: 13px;
 }
 
 #header {
@@ -98,15 +96,12 @@ html {
     .mobileMenu{
         position: relative;
         display: block;
-        background-color: #3F3D42;
         overflow: hidden;
         border: none;   
     }
     
     .mobileLabel{
-        background-color: inherit;
-        display: block;
-        position: relative;
+        background-color: #3F3D42;
         overflow: hidden;
         float: left;
         color: #f2f2f2;
@@ -116,27 +111,28 @@ html {
         text-align: left;
         position: fixed; 
         top: 0; 
+        left: 0;
         z-index: 1;
         width: 100%;
+        font-size: 17px;
     }
     
     .mobileMenu_Button {
-        float: right;
         text-align: right;
-        display: block;
         border: none;
         outline: none;
         color: white;
         padding: 14px 16px;
-        background-color: inherit;
+        background-color: #3F3D42;
         position: fixed; 
         z-index: 1; 
         top: 0; 
         right: 0;
+        font-size: 17px;
     }
     .mobileMenu_Button a {
         float: right;
-        display: block;
+        color: white;
     }
     .mobileMenu_Links {
         display: none;
@@ -151,18 +147,13 @@ html {
         text-decoration: none;
         text-align: center;
         min-width: 120px;
-    }
-    .mobileMenu_Button:hover {
-        background-color: white;
-        color: black;
+        font-size: 17px;
     }
     .mobileMenu_Button:focus {
         background-color: white;
         color: black;
     }
-    .mobileMenu_Button:focus .mobileMenu_Links a{
-        float: right;
-    }
+
     .mobileMenu_Button:focus .mobileMenu_Links{
         display: block;
         float: right;
@@ -172,8 +163,7 @@ html {
         color: #f2f2f2;
     }
     .mobileMenu_Button:hover {
-        background-color: white;
-    
+        background-color: white;    
         color: black;
     }
     .mobileMenu_Button:hover .mobileMenu_Links{
