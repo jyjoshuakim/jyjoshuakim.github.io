@@ -160,7 +160,7 @@ html {
     .mobileMenu_Button:focus .mobileMenu_Links a{
         float: right;
     }
-    .mobileMenu_Button:focus, hover .mobileMenu_Links{
+    .mobileMenu_Button:focus .mobileMenu_Links{
         display: block;
         float: right;
     }
