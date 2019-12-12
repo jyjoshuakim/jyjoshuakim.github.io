@@ -36,6 +36,8 @@ html {
 
 /* Navigation Background */
 .topMenu {
+    margin-right:auto;
+    margin-left:auto;
     background-color: #3F3D42;
     overflow: hidden;
     position: fixed; 
@@ -94,6 +96,7 @@ html {
 @media screen and (max-width: 830px) {
     .topMenu{display: none;}
     .mobileMenu{
+        background-color: #3F3D42;
         position: relative;
         display: block;
         overflow: hidden;
@@ -101,7 +104,7 @@ html {
     }
     
     .mobileLabel{
-        background-color: #3F3D42;
+        background-color: inherit;
         overflow: hidden;
         float: left;
         color: #f2f2f2;
@@ -118,6 +121,7 @@ html {
     }
     
     .mobileMenu_Button {
+        background-color: inherit;
         text-align: right;
         border: none;
         outline: none;
@@ -133,6 +137,7 @@ html {
     .mobileMenu_Button a {
         float: right;
         color: white;
+        text-align: right;
     }
     .mobileMenu_Links {
         display: none;
@@ -152,6 +157,7 @@ html {
     .mobileMenu_Button:focus {
         background-color: white;
         color: black;
+        text-align: right;
     }
 
     .mobileMenu_Button:focus .mobileMenu_Links{
@@ -165,6 +171,7 @@ html {
     .mobileMenu_Button:hover {
         background-color: white;    
         color: black;
+        text-align: right;
     }
     .mobileMenu_Button:hover .mobileMenu_Links{
         display: block;
