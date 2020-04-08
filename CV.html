@@ -54,7 +54,12 @@
                     <br><b>Curriculum Vitae</b><br><br>
                 </div>  
                 <div class="embed-responsive">
-                    <iframe frameborder="0"; align="middle"; "MIN-HEIGHT:550px"; height= 100vh; width="100%"; margin=0; scrolling="no"; frameborder="0" src="CURRICULUM VITAE.pdf"></iframe>
+                    <iframe id="iframe_cv" frameborder="0"; align="middle"; "MIN-HEIGHT:550px"; height= 100vh; width="100%"; margin=0; scrolling="no"; frameborder="0" src="CURRICULUM VITAE.pdf"></iframe>
+                    <script>
+                        $('#iframe_cv').load(function() {
+                            $(this).height($(this).contents().find('body')[0].scrollHeight+30);
+                        });
+                    </script> 
                 </div>
             </div>
             <footer id="footer"><p>Joo Young Kim © 2020 All rights reserved.</p></footer>
